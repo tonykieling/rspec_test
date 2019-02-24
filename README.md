@@ -34,7 +34,7 @@ mkdir spec
 
 
 5- create the file 'spec/string_calculator_spec.rb', content:
-```
+```ruby
 describe StringCalculator do
 end
 ```
