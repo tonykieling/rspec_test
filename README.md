@@ -13,7 +13,7 @@ ps. some issues caused by character-format stuff, but, in the end, everything's 
 
 
 2- create the Gemfile with the following content inside it
-```
+```ruby
   source 'https://rubygems.org'
   gem 'rspec'
 ```
@@ -52,14 +52,14 @@ mkdir lib
 
 
 8- create the file 'lib/string_calculator.rb':
-```
+```ruby
 class StringCalculator
 end
 ```
 
 
 9- we should require the file above in our file 'spec/string_calculator_spec.rb':
-```
+```ruby
 require “string_calculator”
 
 describe StringCalculator do
@@ -72,7 +72,7 @@ end
 
 
 11- 'spec/string_calculator_spec.rb' is suppose to have the code:
-```
+```ruby
 require_relative '../lib/string_calculator'
 
 describe StringCalculator do
@@ -92,7 +92,7 @@ end
 
 13- The simplest thing to do right now is define a the requested method with a simple return, 0.
 At lib/string_calculator.rb:
-```
+```ruby
 class StringCalculator
   def self.add(input)
     0
@@ -102,7 +102,7 @@ end
 
 
 14- we can add more examples in our test file 'spec/string_calculator_spec.rb':
-```
+```ruby
     context "given 4" do
       it "returns 4" do
         expect(StringCalculator.add("4")).to eql(4)
@@ -118,7 +118,7 @@ end
 
 
 15- In order to fix the code above's errors, we should change the code in our add method, class StringCalculator:
-```
+```ruby
 def self.add(input)
     if input.empty?
       0
@@ -130,7 +130,7 @@ def self.add(input)
 
 
 16- to add real add operations, add to the test file ('/spec/string_calculator_spec.rb):
-```
+```ruby
 ...
     context "given 2 and 4" do
       it "returns 6" do
@@ -147,7 +147,7 @@ def self.add(input)
 
 
 17- and also, change the class file '/lib/string_calculator.rb':
-```
+```ruby
 def self.add(input)
   if input.empty?
     0
