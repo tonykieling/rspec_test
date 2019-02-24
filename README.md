@@ -6,28 +6,32 @@ ps. some issues caused by character-format stuff, but, in the end, everything's 
 
 
 1- create a project's directory
+```
   `mkdir calculator`
   `cd calculator`
+```
 
 
 2- create the Gemfile with the following content inside it
+```
   source 'https://rubygems.org'
   gem 'rspec'
+```
 
 
 3- run the command bellow in order to install the latest version of RSpec and all related dependencies
-    bundle install --path .bundle
+> bundle install --path .bundle
 
 
 4- create a dir to wirte tests 
 By convention, tests written with RSpec are called “specs” (short for “specifications”) and are stored in the project’s spec directory.
 Create that directory in your project too:
-`mkdir spec`
+>> mkdir spec
 
 
 5- create the file 'spec/string_calculator_spec.rb', content:
-``describe StringCalculator do
-end``
+>> describe StringCalculator do
+>> end
 
 
 6- To run the specs:
