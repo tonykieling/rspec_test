@@ -11,12 +11,12 @@ ps. some issues caused by character-format stuff, but, in the end, everything's 
 
 
 2- create the Gemfile with the following content inside it
-  `source 'https://rubygems.org'
-  gem 'rspec'`
+  source 'https://rubygems.org'
+  gem 'rspec'
 
 
 3- run the command bellow in order to install the latest version of RSpec and all related dependencies
-`bundle install --path .bundle`
+    bundle install --path .bundle
 
 
 4- create a dir to wirte tests 
