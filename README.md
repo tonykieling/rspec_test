@@ -1,5 +1,5 @@
 # RSpec test 
-This is a step by step task, based on the link-source bellow, which provided me practice about RSpec.
+This is a step by step task, based on the link-source bellow, which provided me practice about RSpec.  
 ps. some issues caused by character-format stuff, but, in the end, everything's working. :D
 
 *source: https://semaphoreci.com/community/tutorials/getting-started-with-rspec*
