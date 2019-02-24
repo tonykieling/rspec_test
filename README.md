@@ -11,8 +11,8 @@ ps. some issues caused by character-format stuff, but, in the end, everything's 
 
 
 2- create the Gemfile with the following content inside it
-```source 'https://rubygems.org'
-gem 'rspec'```
+``source 'https://rubygems.org'
+gem 'rspec'``
 
 
 3- run the command bellow in order to install the latest version of RSpec and all related dependencies
@@ -26,8 +26,8 @@ Create that directory in your project too:
 
 
 5- create the file 'spec/string_calculator_spec.rb', content:
-```describe StringCalculator do
-end```
+``describe StringCalculator do
+end``
 
 
 6- To run the specs:
