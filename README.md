@@ -42,7 +42,7 @@ end
 
 6- To run the specs:
 `bundle exec rspec`
-It will outup an error due to the uninitialized constant StringCalculator (NameError) error. That’s expected, as we haven’t created that class yet.
+It will output an error due to the uninitialized constant StringCalculator (NameError) error. That’s expected, as we haven’t created that class yet.
 
 
 7- create a new directory to host our project's classes
